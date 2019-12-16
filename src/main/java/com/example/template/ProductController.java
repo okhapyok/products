@@ -11,7 +11,7 @@ public class ProductController {
 
     //@GetMapping("/product/{productId}")
     @GetMapping("/product/items/{productId}")
-    Product productStockCheck(@PathVariable(value = "productId") Long productId) {
+    Product productStockCheck1(@PathVariable(value = "productId") Long productId) {
 
         System.out.println("productStockCheck call");
         try {
